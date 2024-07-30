@@ -1,14 +1,20 @@
 {
-  "name": "moshify",
-  "version": "1.0.0",
-  "main": "index.html",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  }
+    "name": "js-basics",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+        "@eslint/js": "^9.8.0",
+        "eslint": "^9.8.0",
+        "globals": "^15.8.0"
+    },
+    "dependencies": {
+        "eslint-config-prettier": "^9.1.0"
+    }
 }
